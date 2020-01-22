@@ -3,8 +3,16 @@ class Student < User
   @@knowledge = []
 
   def initialize(first_name, last_name)
-    @first_name = "Steve"
-    @last_name = "Jobs"
+    @first_name = first_name
+    @last_name = last_name
   end
+
+  def first_name
+    "Steve"
+  end
+
+  def last_name
+    "Jobs"
+  end 
 
 end
